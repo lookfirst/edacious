@@ -156,7 +156,7 @@
 		</zip>
 	</target>
 
-	<target name="upload">
+	<target name="upload" depends="init">
 		<gcupload projectname="sardine"
 			userName="${gc.username}"
 			password="${gc.password}"
