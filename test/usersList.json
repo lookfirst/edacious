@@ -1,0 +1,26 @@
+{ "status":0,
+	"body":{ "users":[
+						{"id":29,
+						"firstname":"Julien",
+						"lastname":"Lasterieux",
+						"shortname":"JUL",
+						"gender":0,
+						"ispublic":1,
+						"publickey":"b71d95d5fb963458"},
+						{"id":31,
+						"firstname":"Manon",
+						"lastname":"Lasterieux",
+						"shortname":"MAN",
+						"gender":1,
+						"ispublic":0,
+						"publickey":"b7d596768b7ba03b"},
+						{"id":37,
+						"firstname":"Nathalie",
+						"lastname":"Lasterieux",
+						"shortname":"NAT",
+						"gender":1,
+						"ispublic":0,
+						"publickey":"2c5b7a2c26c323eb"}
+					]
+			}
+}
