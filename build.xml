@@ -25,6 +25,8 @@
 	<property name="build.javadoc.dir" location="${build.dir}/javadoc" />
 
 	<property name="build.jar.file" location="${build.dir}/${name}.jar" />
+	<property name="build.dist.dir" location="${build.dir}/${ant.project.name}-${version}"/>
+	<property name="build.dist.zip" location="${build.dir}/${ant.project.name}-${version}.zip"/>
 
 	<property name="docs.dir" value="${build.dir}/docs" />
 	<property name="javadoc.dir" value="javadoc" />
@@ -116,8 +118,6 @@
 	</target>
 
 	<target name="dist" depends="clean, jar, javadoc">
-		<property name="build.dist.dir" location="${build.dir}/${ant.project.name}-${version}"/>
-		<property name="build.dist.zip" location="${build.dir}/${ant.project.name}-${version}.zip"/>
 
 		<copy todir="${build.dist.dir}">
 			<fileset dir="${build.dir}">
