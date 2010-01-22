@@ -163,7 +163,7 @@
 			password="${gc.password}"
 			filename="${build.dist.zip}"
 			targetfilename="${build.dist.zip}"
-			summary="Sardine distribution"
+			summary="Edacious distribution"
 			labels="Featured, Type-Package, OpSys-All" />
 	</target>
 </project>
